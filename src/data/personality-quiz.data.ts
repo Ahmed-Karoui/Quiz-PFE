@@ -1,0 +1,127 @@
+export const PERSONALITY_QUIZ_DATA = {
+  id: 1,
+  name: 'Personality Quiz',
+  description: 'Personality quiz...',
+  questions: [
+    {
+      id: 1,
+      name: 'ce faci?',
+      questionTypeId: 1,
+      options: [
+        {
+          id: 1,
+          questionId: 1,
+          name: 'Nimic',
+          value: false,
+          isCorrect: false,
+        },
+        {
+          id: 2,
+          questionId: 1,
+          name: 'Raspuns corect',
+          value: false,
+          isCorrect: true,
+        },
+        {
+          id: 3,
+          questionId: 1,
+          name: 'IDK',
+          value: false,
+          isCorrect: false,
+        },
+        {
+          id: 4,
+          questionId: 1,
+          name: 'Ceva',
+          value: false,
+          isCorrect: false,
+        },
+      ],
+      questionType: {
+        id: 1,
+        name: 'single_choice',
+        isDisabled: false,
+      },
+    },
+    {
+      id: 2,
+      name: 'wtf?',
+      questionTypeId: 1,
+      options: [
+        {
+          id: 1,
+          questionId: 2,
+          name: 'wttf',
+          value: false,
+          isCorrect: false,
+        },
+        {
+          id: 2,
+          questionId: 2,
+          name: 'wwtf',
+          value: false,
+          isCorrect: false,
+        },
+        {
+          id: 3,
+          questionId: 2,
+          name: 'Raspuns corect',
+          value: false,
+          isCorrect: true,
+        },
+        {
+          id: 4,
+          questionId: 2,
+          name: 'wtff',
+          value: false,
+          isCorrect: false,
+        },
+      ],
+      questionType: {
+        id: 1,
+        name: 'single_choice',
+        isDisabled: false,
+      },
+    },
+    {
+      id: 3,
+      name: 'ce?',
+      questionTypeId: 1,
+      options: [
+        {
+          id: 1,
+          questionId: 3,
+          name: 'Raspuns corect',
+          value: false,
+          isCorrect: true,
+        },
+        {
+          id: 2,
+          questionId: 3,
+          name: 'nu',
+          value: false,
+          isCorrect: false,
+        },
+        {
+          id: 3,
+          questionId: 3,
+          name: 'c',
+          value: false,
+          isCorrect: false,
+        },
+        {
+          id: 4,
+          questionId: 3,
+          name: 'h',
+          value: false,
+          isCorrect: false,
+        },
+      ],
+      questionType: {
+        id: 1,
+        name: 'single_choice',
+        isDisabled: false,
+      },
+    },
+  ],
+};
